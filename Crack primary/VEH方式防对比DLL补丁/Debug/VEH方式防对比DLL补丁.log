@@ -1,0 +1,15 @@
+﻿Build started 2016/1/20 17:14:06.
+     1>Project "L:\vs2013Projects\破解初级\VEH方式防对比DLL补丁\VEH方式防对比DLL补丁.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         M:\Visual Studio Community 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D VEHDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         M:\Visual Studio Community 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"L:\vs2013Projects\破解初级\Debug\VEH方式防对比DLL补丁.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"L:\vs2013Projects\破解初级\Debug\VEH方式防对比DLL补丁.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"L:\vs2013Projects\破解初级\Debug\VEH方式防对比DLL补丁.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\stdafx.obj
+         "Debug\VEH方式防对比DLL补丁.obj"
+         VEH方式防对比DLL补丁.vcxproj -> L:\vs2013Projects\破解初级\Debug\VEH方式防对比DLL补丁.dll
+     1>Done Building Project "L:\vs2013Projects\破解初级\VEH方式防对比DLL补丁\VEH方式防对比DLL补丁.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.83

@@ -1,0 +1,21 @@
+﻿Build started 2016/1/18 14:57:06.
+     1>Project "L:\vs2013Projects\破解初级\FILE验证\FILE验证.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         M:\Visual Studio Community 2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\FILE验证.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "FILE验证.cpp" "FILE验证Dlg.cpp"
+         FILE验证Dlg.cpp
+         Generating Code...
+         Compiling...
+         FILE验证.cpp
+         Generating Code...
+       Link:
+         M:\Visual Studio Community 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"L:\vs2013Projects\破解初级\Debug\FILE验证.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"M:\Visual Studio Community 2013\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"L:\vs2013Projects\破解初级\Debug\FILE验证.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"L:\vs2013Projects\破解初级\Debug\FILE验证.lib" /MACHINE:X86 "Debug\FILE验证.res"
+         "Debug\FILE验证.obj"
+         "Debug\FILE验证Dlg.obj"
+         Debug\MainDlg.obj
+         Debug\stdafx.obj
+         FILE验证.vcxproj -> L:\vs2013Projects\破解初级\Debug\FILE验证.exe
+     1>Done Building Project "L:\vs2013Projects\破解初级\FILE验证\FILE验证.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.48

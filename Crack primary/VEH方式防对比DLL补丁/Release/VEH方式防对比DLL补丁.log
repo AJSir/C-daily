@@ -1,0 +1,22 @@
+﻿Build started 2016/1/20 16:34:45.
+     1>Project "L:\vs2013Projects\破解初级\VEH方式防对比DLL补丁\VEH方式防对比DLL补丁.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         M:\Visual Studio Community 2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D VEHDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\VEH方式防对比DLL补丁.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         M:\Visual Studio Community 2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D VEHDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         M:\Visual Studio Community 2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D VEHDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\VEH方式防对比DLL补丁.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "VEH方式防对比DLL补丁.cpp"
+         VEH方式防对比DLL补丁.cpp
+       Link:
+         M:\Visual Studio Community 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"L:\vs2013Projects\破解初级\Release\VEH方式防对比DLL补丁.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"L:\vs2013Projects\破解初级\Release\VEH方式防对比DLL补丁.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"L:\vs2013Projects\破解初级\Release\VEH方式防对比DLL补丁.lib" /MACHINE:X86 /SAFESEH /DLL Release\dllmain.obj
+         Release\stdafx.obj
+         "Release\VEH方式防对比DLL补丁.obj"
+            Creating library L:\vs2013Projects\破解初级\Release\VEH方式防对比DLL补丁.lib and object L:\vs2013Projects\破解初级\Release\VEH方式防对比DLL补丁.exp
+     1>LINK : warning LNK4232: name VEH方式防对比DLL补丁.dll contains non-ASCII characters, DLL may not load on system with ANSI codepage other than 936
+     1>dllmain.obj : error LNK2001: unresolved external symbol "long __stdcall VectoredHandler(struct _EXCEPTION_POINTERS *)" (?VectoredHandler@@YGJPAU_EXCEPTION_POINTERS@@@Z)
+     1>L:\vs2013Projects\破解初级\Release\VEH方式防对比DLL补丁.dll : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "L:\vs2013Projects\破解初级\VEH方式防对比DLL补丁\VEH方式防对比DLL补丁.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.67
